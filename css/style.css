@@ -120,11 +120,13 @@ video::-webkit-media-controls {
 .cd-slider-nav ul {
 	padding: 0;
 	margin: 0;
+	margin-top: 4rem;
+	margin-bottom: 10rem;
 }
 
 .cd-slider-nav ul li {
 	display: inline-block;
-	margin: 80px 40px;
+	margin: 2rem 2.5rem;
 }
 
 .cd-slider-nav ul li a {
@@ -155,13 +157,6 @@ video::-webkit-media-controls {
 	text-align: center;
 	padding: 0px;
 	background-color: #ffbb05;
-}
-
-.cd-slider-nav .image-icon:hover {
-	background-color: #fff;
-	-moz-transition: all 0.2s linear;
-	-o-transition: all 0.2s linear;
-	-webkit-transition: all 0.2s linear;
 }
 
 .content {
@@ -195,9 +190,14 @@ video::-webkit-media-controls {
 	width: 100%;
 }
 
+.group-brick {
+	margin: 0 0 100px auto;
+	text-align: center;
+}
+
 .heading {
 	text-align: center;
-	margin-bottom: 180px;
+	margin-bottom: 100px;
 }
 
 .heading h1 {
@@ -206,6 +206,7 @@ video::-webkit-media-controls {
 	font-size: 38px;
 	color: #fff;
 	font-weight: 900;
+	line-height: 7rem;
 }
 
 .heading h4 {
@@ -221,16 +222,17 @@ video::-webkit-media-controls {
 	text-align: center;
 	line-height: 3rem;
 	margin-bottom: 30px;
+	margin-top: 30px;
 	font-weight: 800;
 }
 
 .first-content {
-	padding: 60px 15px;
+	padding: 15px;
 	text-align: right;
 }
 
 .first-content p {
-	margin: 0px 120px;
+	margin: 8px;
 	line-height: 3rem;
 	font-weight: 800;
 }
@@ -507,49 +509,6 @@ video::-webkit-media-controls {
 .fivth-content input:focus {
 	outline: none !important;
 	box-shadow: none;
-}
-
-.fivth-content textarea {
-	margin-bottom: 20px;
-	padding-left: 15px;
-	width: 100%;
-	max-width: 100%;
-	max-height: 180px;
-	height: 140px;
-	display: inline-block;
-	line-height: 40px;
-	font-size: 13px;
-	color: #aaa;
-	background-color: #f4f4f4;
-	border: none;
-	outline: none !important;
-	border-radius: 0;
-	box-shadow: none;
-}
-
-.fivth-content textarea:focus {
-	outline: none !important;
-	box-shadow: none;
-}
-
-.fivth-content button {
-	display: inline-block;
-	background-color: #ffbb05;
-	color: #343434;
-	font-size: 13px;
-	padding: 12px 18px;
-	border-radius: 3px;
-	text-decoration: none;
-	outline: none;
-	margin-bottom: 0px;
-}
-
-.fivth-content button:hover {
-	background-color: transparent;
-	border: 1px solid #ffbb05;
-	-moz-transition: all 0.2s linear;
-	-o-transition: all 0.2s linear;
-	-webkit-transition: all 0.2s linear;
 }
 
 /*
